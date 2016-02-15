@@ -7,13 +7,23 @@
       <button class="button button-icon ion-ios-help-outline" ng-click="showHelp()" aria-label="{{ 'mm.core.help' | translate }}"></button>
   </ion-nav-buttons>
   <ion-content>
-      <div class="card">
-          <div class="item item-divider">
-              {{'mm.login.welcome' | translate}}
+      <div class="list card">
+
+          <div class="item item-avatar">
+              <img src="avatar.jpg">
+              <h2>{{'mm.login.welcome' | translate}}</h2>
+              <p>{{'mm.login.welcome2' | translate}}</p>
           </div>
-          <div class="item item-text-wrap">
-              {{'mm.login.welcome2' | translate}}
+
+          <div class="item item-image">
+              <img src="Akademia_Logo.png" width="200px" height="200px" />
           </div>
+
+          <a class="item item-icon-left assertive" href="#">
+              <button class="button button-block" ng-click="connect('spens.akademia.ac.za')">{{ 'mm.login.connect' | translate }}</button>
+
+          </a>
+
       </div>
 
       <div class="list">
@@ -26,7 +36,6 @@
           </label>
           -->
           <div class="item">
-              <button class="button button-block" ng-click="connect('spens.akademia.ac.za')">{{ 'mm.login.connect' | translate }}</button>
               <!-- <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="isInvalidUrl">{{ 'mm.login.connect' | translate }}</button> -->
               <!-- <input type="submit" class="button button-block" value="{{ 'mm.login.connect' | translate }}" > -->
           </div>
