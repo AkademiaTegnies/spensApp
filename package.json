@@ -37,19 +37,17 @@
     "cordova-plugin-file-transfer",
     "cordova-plugin-network-information",
     "cordova-plugin-camera",
-    "phonegap-plugin-push",
     "cordova-plugin-media-capture",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
     "cordova-plugin-whitelist",
-    "phonegap-plugin-push", // ensure working
-    "net.tunts.webintent", //to fix
+    "com.phonegap.plugins.pushplugin",
+    "net.tunts.webintent",
     "cordova-plugin-customurlscheme",
     "ionic-plugin-keyboard",
-    "ch.ti8m.documenthandler", // to fix
+    "ch.ti8m.documenthandler",
     "cordova-plugin-local-notifications-mm",
     "cordova-plugin-zip"
-    //"com.phonegap.plugins.pushplugin", replaced with phonegap-plugin-push, to fix
   ],
   "cordovaPlatforms": [
     "android",
