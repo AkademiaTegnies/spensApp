@@ -1,4 +1,16 @@
 {
-    "contents": "المحتويات",
-    "showall": "عرض الكل"
+    "activitynotyetviewable": "Hierdie aktiwiteit of hulpbron is nog nie sigbaar in die program.",
+    "activitynotyetviewablegothere": "Hierdie aktiwiteit of hulpbron is nog nie sigbaar in die program, kliek op die knoppie hieronder om dit oop te maak op die webwerf.",
+    "allsections": "Alle afdelings",
+    "confirmdownload": "Jy staan op die punt om {{size}} af te laai . Is jy seker jy wil voortgaan?",
+    "confirmdownloadunknownsize": "Ons was nie in staat om die grootte van die aflaai te bereken nie. Is jy seker jy wil voortgaan?",
+    "contents": "Inhoud",
+    "couldnotloadsections": "Kon nie die afdelings laai nie, probeer asseblief later weer.",
+    "couldnotloadsectioncontent": "Kon nie die afdeling inhoud laai nie, probeer asseblief later weer.",
+    "errordownloadingsection": "Fout begaan met die aflaai van die afdeling.",
+    "errorgetmodule": "Fout begaan met die aflaai van module data.",
+    "gotothesite": "Gaan na die webwerf",
+    "nocontentavailable": "Geen inhoud beskikbaar op die oomblik.",
+    "showall": "Wys als",
+    "whoops": "Whoops!"
 }
