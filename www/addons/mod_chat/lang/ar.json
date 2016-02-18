@@ -1,10 +1,19 @@
 {
-    "beep": "نغمة",
-    "currentusers": "المستخدمين الحاليين",
-    "enterchat": "أضغط هناء للدخول إلى المحادثة",
-    "messagebeepsyou": "{{$a}}  أرسل نغمة لك!",
-    "messageenter": "{{$a}}  دخل غرفة محادثة",
-    "messageexit": "{{$a}}  خرج من غرفة محادثة",
-    "nomessages": "لا توجد رسائل بعد",
-    "send": "إرسال"
+    "beep": "'Beep'",
+    "currentusers": "Huidige gebruikers",
+    "enterchat": "Klik hier om die chat oop te maak",
+    "entermessage": "Tik jou boodskap",
+    "errorwhileconnecting": "Fout tydens koppeling aan die chat.",
+    "errorwhilegettingchatdata": "Fout begaan met die verkry van chat data.",
+    "errorwhilegettingchatusers": "Fout begaan met die verkry van chat gebruikers.",
+    "errorwhileretrievingmessages": "Fout begaan tydens die herwinning van die boodskappe vanaf die bediener.",
+    "errorwhilesendingmessage": "Fout begaan tydens die stuur van die boodskap.",
+    "messagebeepsyou": "{{$a}} het jou sopas gebeep!",
+    "messageenter": "{{$a}} het sopas by hierdie chat aangesluit",
+    "messageexit": "{{$a}} het sopas hierdie chat verlaat",
+    "mustbeonlinetosendmessages": "Jy moet aanlyn wees om boodskappe te stuur",
+    "nomessages": "Nog geen boodskappe",
+    "send": "Stuur",
+    "sessionstart": "Die volgende chat sessie sal begin in {{$a}}",
+    "talk": "Praat"
 }
