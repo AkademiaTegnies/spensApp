@@ -1,6 +1,11 @@
 {
-    "addsubmission": "أضف تسليم",
-    "duedate": "تاريخ تقديم مهمة",
-    "duedateno": "لا يوجد موعد لتقديم المهمة",
-    "submissions": "تسليمات"
+    "addsubmission": "Voeg nuwe opdrag by",
+    "allowsubmissionsfromdate": "Allow submissions from",
+    "attemptnumber": "Poging nommer",
+    "cutoffdate": "Afsnydatum",
+    "duedate": "Sperdatum",
+    "duedateno": "Geen sperdatum",
+    "submissions": "Voorleggings",
+    "userwithid": "Gebruiker met ID {{id}}",
+    "viewsubmission": "Vertoon voorlegging"
 }
