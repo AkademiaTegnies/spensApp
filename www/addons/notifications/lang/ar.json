@@ -1,4 +1,5 @@
 {
-    "notifications": "الإشعارات",
-    "therearentnotificationsyet": "لا توجد إشعارات"
+    "errorgetnotifications": "Fout begaan met die verkry van kennisgewings",
+    "notifications": "Kennisgewings",
+    "therearentnotificationsyet": "Daar is geen kennisgewings"
 }
