@@ -1,9 +1,12 @@
 {
-    "addnewnote": "إضافة ملاحظة جديدة",
-    "coursenotes": "ملاحظات المقرر الدراسي",
-    "note": "ملاحظة",
-    "notes": "تحليلك وملاحظاتك الخاصة",
-    "personalnotes": "ملاحظات شخصية",
-    "publishstate": "السياق",
-    "sitenotes": "ملاحظات الموقع"
+    "addnewnote": "Voeg 'n nuwe nota by",
+    "coursenotes": "Kursusnotas",
+    "eventnotecreated": "Nota geskep",
+    "nonotes": "Daar is geen aantekeninge van hierdie soort beskikbaar nie",
+    "note": "Nota",
+    "notes": "Notas",
+    "personalnotes": "Persoonlike notas",
+    "publishstate": "Konteks",
+    "sitenotes": "Webwerf notas",
+    "userwithid": "Gebruiker met ID {{id}}"
 }
