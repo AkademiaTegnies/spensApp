@@ -1,7 +1,10 @@
 {
-    "clicktocontinue": "اضغط هنا للاستمرار",
-    "ifoundthat": "وجدت أن",
-    "ipreferthat": "أفضل أن",
-    "responses": "إجابات",
-    "results": "نتائج"
+    "cannotsubmitsurvey": "Jammer, daar was 'n probleem met die stuur van jou opname. Probeer asseblief weer.",
+    "clicktocontinue": "Klik hier om voort te gaan",
+    "errorgetsurvey": "Fout begaan met die verkry van opname data.",
+    "ifoundthat": "Ek het gevind dat",
+    "ipreferthat": "Ek verkies dat",
+    "responses": "Antwoorde",
+    "results": "Resultate",
+    "surveycompletednograph": "Jy het hierdie opname voltooi."
 }
