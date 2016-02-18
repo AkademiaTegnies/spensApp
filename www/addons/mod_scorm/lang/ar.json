@@ -48,5 +48,5 @@
     "scormstatusoutdated": "Hierdie SCORM is al opgedateer sedert die laaste aflaai. Dit sal outomaties afgelaai word wanneer jy dit oopmaak.",
     "suspended": "Opgeskort",
     "warningofflinedatadeleted": "Sommige aflyn data van die poging {{number}} kon geskrap geword het, aangesien dit nie herskep kon word in 'n nuwe poging nie.",
-    "warningsynconlineincomplete": "Sommige pogings kon nie gesinchroniseer word met die Spens nie, want die laaste aanlyn poging nie klaar is. Voltooi asb eers die aanlyn poging."
+    "warningsynconlineincomplete": "Sommige pogings kon nie gesinchroniseer word met die Spens nie, want die laaste aanlyn poging is nog nie voltooi nie. Voltooi asb eers die aanlyn poging."
 }
