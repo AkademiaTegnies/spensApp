@@ -73,14 +73,24 @@ angular.module('mm.core')
                     return language;
                 }, function() {
                     // Error getting locale. Use default language.
-                    return mmCoreConfigConstants.default_lang || 'en';
+                    return mmCoreConfigConstants.default_lang || 'ar' || 'en';
                 });
             } catch(err) {
                 // Error getting locale. Use default language.
-                return mmCoreConfigConstants.default_lang || 'en';
+                return mmCoreConfigConstants.default_lang || 'ar' || 'en';
             }
         }).then(function(language) {
+            if(language == 'en-US' || language == 'en' || language =="en")
+            {
+                language = 'ar';
+            }
+
             currentLanguage = language; // Save it for later.
+            console.log("***********************************");
+            console.log("***********************************");
+            console.log("language will be stored as: " + language);
+            console.log("***********************************");
+            console.log("***********************************");
             return language;
         });
     };
