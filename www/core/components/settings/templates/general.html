@@ -5,6 +5,7 @@
                 <div class="input-label" id="mm-settings-languagelabel">
                     {{ 'mm.settings.language' | translate }}
                 </div>
+                <!-- Language name is defined in www/build/mm.bundle.js this is where ar has been changed to Afrikaans. This can be changed back again -->
                 <select ng-model="selectedLanguage" ng-options="code as name for (code, name) in langs" ng-change="languageChanged(selectedLanguage)" aria-labelledby="mm-settings-languagelabel">
                 </select>
             </li>

@@ -1,12 +1,14 @@
 {
-    "average": "متوسط",
-    "feedback": "إفادة",
-    "grade": "الدرجة",
-    "grades": "درجات",
-    "itemname": "اسم البند",
-    "lettergrade": "درجة حرفية",
-    "percentage": "النسبة",
-    "range": "مجال",
-    "viewgrades": "عرض الدرجات",
-    "weight": "الوزن"
+    "average": "Gemiddeld",
+    "contributiontocoursetotal": "Bydrae tot kursus somtotaal",
+    "feedback": "Terugvoer",
+    "grade": "Punt",
+    "grades": "Punte",
+    "itemname": "Grade item",
+    "lettergrade": "Letter grade",
+    "percentage": "Persentasie",
+    "rank": "Rank",
+    "range": "Range",
+    "viewgrades": "View grades",
+    "weight": "Weight"
 }

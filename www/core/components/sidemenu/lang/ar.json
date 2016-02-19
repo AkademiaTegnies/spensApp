@@ -1,6 +1,8 @@
 {
-    "changesite": "الخروج",
-    "help": "مساعدة",
-    "mycourses": "مقرراتي",
-    "website": "الموقع"
+    "appsettings": "App instellings",
+    "help": "Help",
+    "changesite": "Verander webwerf",
+    "mycourses": "My kursusse",
+    "togglemenu": "Skakel spyskaart",
+    "website": "Webwerf"
 }

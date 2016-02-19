@@ -1,3 +1,7 @@
 {
-    "notifications": "الإشعارات"
+    "calendarevents": "Kalender gebeure",
+    "errorloadevent": "Daar was 'n probleem met die laai van die gebeurtenis",
+    "errorloadevents": "Daar was 'n probleem met die laai van die gebeurtenisse",
+    "noevents": "Geen gebeure beskikbaar",
+    "notifications": "Kennisgewings"
 }

@@ -31,10 +31,8 @@ angular.module('mm.core')
 .filter('mmFormatDate', function($translate) {
 
     return function(timestamp, format) {
-        if (format.indexOf('.') == -1) {
-            format = 'mm.core.' + format;
-        }
-        return moment(timestamp).format($translate.instant(format));
+        //return moment(timestamp).format($translate.instant(format));
+        return moment(timestamp);
     };
 
 });

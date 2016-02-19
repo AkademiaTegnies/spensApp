@@ -6,7 +6,7 @@
             <article class="card" ng-repeat="notification in notifications track by $index">
                 <div class="item">
                     <h2>{{notification.userfromfullname}}</h2>
-                    <p>{{notification.timecreated | mmDateDayOrTime}}</p>
+                    <p>{{notification.timecreated | date:"MM/dd/yyyy 'teen' h:mma"}}</p>
                 </div>
                 <div class="item item-body">
                     <p><mm-format-text class="mm-content-with-float" watch="true">{{ notification.mobiletext | mmCreateLinks | mmaNotificationsFormat }}</mm-format-text></p>

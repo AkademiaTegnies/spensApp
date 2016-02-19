@@ -32,12 +32,16 @@ angular.module('mm.core')
  * This filter expects a timestamp NOT including milliseconds.
  */
 .filter('mmDateDayOrTime', function($translate) {
-
     return function(timestamp) {
         return moment(timestamp * 1000).calendar(null, {
+            /*
             sameDay: $translate.instant('mm.core.dftimedate'),
             lastDay: $translate.instant('mm.core.dflastweekdate'),
             lastWeek: $translate.instant('mm.core.dflastweekdate')
+            */
+            sameDay: 'mm.core.dftimedate',
+            lastDay: 'mm.core.dflastweekdate',
+            lastWeek: 'mm.core.dflastweekdate'
         });
     };
 
