@@ -86,11 +86,12 @@ angular.module('mm.core')
             }
 
             currentLanguage = language; // Save it for later.
-            console.log("***********************************");
+/*            console.log("***********************************");
             console.log("***********************************");
             console.log("language will be stored as: " + language);
             console.log("***********************************");
             console.log("***********************************");
+            */
             return language;
         });
     };
