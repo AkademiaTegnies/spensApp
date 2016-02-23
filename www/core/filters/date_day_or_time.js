@@ -37,5 +37,6 @@ angular.module('mm.core')
         return angularDateFilter(timestamp, 'dd MMMM teen HH:mm:ss');
     };
 
+
 });
 
