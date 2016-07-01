@@ -34,7 +34,7 @@ angular.module('mm.core')
 .filter('mmDateDayOrTime', function($filter) {
     var angularDateFilter = $filter('date');
     return function(timestamp) {
-        return angularDateFilter(timestamp, 'dd MMMM teen HH:mm:ss');
+        return angularDateFilter(timestamp, 'd/M/yy h:mm a');
     };
 
 
