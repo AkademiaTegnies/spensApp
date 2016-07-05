@@ -55,7 +55,8 @@ var paths = {
     ],
     custom: [
       './scss/app.scss',
-      './scss/**/*.scss'
+      './scss/**/*.scss',
+      'app.scss'
     ]
   },
   lang: [
@@ -79,7 +80,7 @@ gulp.task('sass-build', function(done) {
 gulp.task('sass', ['sass-build'], function(done) {
   gulp.src(paths.sass.custom)
     .pipe(concat('mm.bundle.css'))
-    .pipe(sass())
+    .pipe(sass({errLogToConsole: true}))
     .pipe(gulp.dest(paths.build))
     .pipe(minifyCss({
       keepSpecialComments: 0
