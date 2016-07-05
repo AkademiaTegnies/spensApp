@@ -13,6 +13,15 @@
 // limitations under the License.
 
 angular.module('mm.core')
+/*
+ .filter('mmDateDayOrTime', function($filter) {
+ var angularDateFilter = $filter('date');
+ return function(timestamp) {
+ return angularDateFilter(timestamp, 'dd MMMM teen HH:mm:ss');
+ };
+
+ */
+
 
 /**
  * Filter to turn a UNIX timestamp to "time ago".
@@ -21,10 +30,13 @@ angular.module('mm.core')
  * @ngdoc filter
  * @name mmTimeAgo
  */
-.filter('mmTimeAgo', function() {
 
+.filter('mmTimeAgo', function($filter) {
+    var angularDateFilter = $filter('date');
     return function(timestamp) {
-        return moment(timestamp * 1000).fromNow(true);
+        // return angularDateFilter(timestamp, 'dd MMMM teen HH:mm:ss');
+        //return moment(timestamp * 1000).fromNow(true);
+        return angularDateFilter(timestamp, 'dd MMMM');
     };
 
 });

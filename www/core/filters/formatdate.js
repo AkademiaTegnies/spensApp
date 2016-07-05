@@ -32,7 +32,8 @@ angular.module('mm.core')
 
     return function(timestamp, format) {
         //return moment(timestamp).format($translate.instant(format));
-        return moment(timestamp);
+        return angularDateFilter(timestamp, 'd/M/yy h:mm a');
+         //return moment(timestamp);
     };
 
 });

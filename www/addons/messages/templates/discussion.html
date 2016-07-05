@@ -17,7 +17,7 @@
                         <mm-format-text after-render="scrollAfterRender" watch="true">{{ message.smallmessage | mmaMessagesFormat }}</mm-format-text>
                         <ion-spinner ng-if="message.sending"></ion-spinner>
                         <span class="item-note">
-                            {{ message.timecreated * 1000 | date:"MM/dd/yyyy 'teen' h:mma" }}
+                            {{ message.timecreated * 1000 | date:"d/M/yy h:mm a" }}
                             <button class="button button-icon icon ion-close-round mma-messages-delete-button" ng-if="canDelete && selectedMessage && selectedMessage == message.id" ng-click="deleteMessage(message, $index)"></button>
                         </span>
 
