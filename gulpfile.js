@@ -80,7 +80,7 @@ gulp.task('sass-build', function(done) {
 gulp.task('sass', ['sass-build'], function(done) {
   gulp.src(paths.sass.custom)
     .pipe(concat('mm.bundle.css'))
-    .pipe(sass({errLogToConsole: true}))
+    .pipe(sass())
     .pipe(gulp.dest(paths.build))
     .pipe(minifyCss({
       keepSpecialComments: 0

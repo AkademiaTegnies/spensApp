@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="ac.za.spens.akademia" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="ac.za.spens.akademia" version="0.0.1" versionCode="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Akademia</name>
   <description>Akademia Spens App</description>
-  <author href="http://spens.akademia.ac.za" email="tegnies@akademia.ac.za">Juan Leyva</author>
+  <author href="http://spens.akademia.ac.za" email="tegnies@akademia.ac.za">Akademia Tegnies</author>
   <content src="index.html"/>
   <access origin="*"/>
 
